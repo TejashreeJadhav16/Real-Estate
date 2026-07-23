@@ -32,7 +32,7 @@ The visual style steps away from dated real estate portals to present a sleek, c
 
 ---
 
-## 🛠️ Technical Stack & Architecture
+##  Technical Stack & Architecture
 
 *   **Framework:** React 19 (Functional Hooks & State Handlers)
 *   **Language:** TypeScript (Strict Type Definition Interfaces for Properties and System Entities)
@@ -41,26 +41,6 @@ The visual style steps away from dated real estate portals to present a sleek, c
 *   **State Management:** Reactive state containers parsing localized property inventories down to target filtering contexts.
 
 ---
-
-##  Repository Directory Structure
-
-``text
-src/
-├── types/
-│   └── property.ts           # Strict type schemas and data models
-├── components/
-│   ├── Navbar.tsx            # Sticky global header navigation
-│   ├── Hero.tsx              # Search engine with glassmorphic filter tabs
-│   ├── About.tsx             # Value proposition and company story matrix
-│   ├── Stats.tsx             # High-impact corporate metric counters
-│   ├── PropertySection.tsx   # Generic reusable layout for Buy, Rent & Luxury listings
-│   ├── BlogSection.tsx       # Localized real estate news and intelligence feed
-│   ├── Engagement.tsx        # Dynamic tip modules and interactive data points
-│   ├── CallToAction.tsx      # High-conversion lead collection banner
-│   ├── Footer.tsx            # Detailed corporate links directory
-│   └── AdminDashboard.tsx    # Comprehensive CRUD database management & analytics panel
-├── App.tsx                   # Master router, control engine, and core state container
-└── index.css                 # Premium custom utility layer & design tokens
 
 Installation
 1. Clone the repository:git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
