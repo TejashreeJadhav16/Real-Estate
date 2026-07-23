@@ -43,8 +43,8 @@ The visual style steps away from dated real estate portals to present a sleek, c
 ---
 
 Installation
-1. Clone the repository:git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+1. Clone the repository:git clone https://github.com/TejashreeJadhav16/Real-Estate.git
+cd Real-Estate
 
 2. Install the production dependencies:npm install
 
