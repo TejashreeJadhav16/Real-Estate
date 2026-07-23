@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "enumeration",
+      "enum": [
+        "Buy",
+        "Rent"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Apartment",
+        "Villa",
+        "Penthouse",
+        "Plot"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "priceRaw": {
+      "type": "decimal"
+    },
+    "baths": {
+      "type": "integer"
+    },
+    "area": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locality": {
+      "type": "enumeration",
+      "enum": [
+        "NODE_Kharghar",
+        "NODE_Belapur",
+        "NODE_Nerul",
+        "NODE_Panvel",
+        "NODE_Ulwe",
+        "NODE_Seawoods"
+      ]
+    },
+    "beds": {
+      "type": "enumeration",
+      "enum": [
+        "BHK_1",
+        "BHK_2",
+        "BHK_3",
+        "BHK_4_Plus"
+      ]
+    }
+  }
+}
